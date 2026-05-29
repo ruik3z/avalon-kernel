@@ -1,0 +1,3 @@
+[submodule "kali"]
+	path = kali
+	url = https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-kernel-builder

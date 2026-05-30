@@ -18,7 +18,7 @@
 #endif
 
 #include "manager/apk_sign.h"
-#include "uapi/app_profile.h"
+#include "../uapi/app_profile.h"
 #include "klog.h" // IWYU pragma: keep
 
 struct sdesc {

@@ -48,8 +48,6 @@ kernelsu-objs += feature/adb_root.o
 
 kernelsu-objs += feature/selinux_hide.o
 
-ccflags-y += -I$(srctree)/drivers/kernelsu
-
 ifdef KBUILD_EXTMOD
 ifeq ($(CONFIG_KSU_DISABLE_MANAGER),y)
 ccflags-y += -DCONFIG_KSU_DISABLE_MANAGER=1

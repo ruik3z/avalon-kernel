@@ -1,6 +1,3 @@
 [submodule "kali"]
 	path = kali
 	url = https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-kernel-builder
-[submodule "drivers/kernelsu"]
-	path = drivers/kernelsu
-	url = https://github.com/KernelSU-Next/KernelSU-Next.git
